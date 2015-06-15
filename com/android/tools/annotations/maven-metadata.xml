@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.android.tools</groupId>
+  <artifactId>annotations</artifactId>
+  <version>24.3.0-beta3</version>
+  <versioning>
+    <versions>
+      <version>24.3.0-beta3</version>
+    </versions>
+    <lastUpdated>20150612074747</lastUpdated>
+  </versioning>
+</metadata>
