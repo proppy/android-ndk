@@ -32,7 +32,7 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools</groupId>
-      <artifactId>sdklib</artifactId>
+      <artifactId>hierarchyviewer2lib</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
@@ -40,6 +40,12 @@
       <groupId>com.google.jsilver</groupId>
       <artifactId>jsilver</artifactId>
       <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.ddms</groupId>
+      <artifactId>ddmlib</artifactId>
+      <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -61,8 +67,8 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.ddms</groupId>
-      <artifactId>ddmlib</artifactId>
+      <groupId>com.android.tools</groupId>
+      <artifactId>sdklib</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
@@ -75,12 +81,6 @@
     <dependency>
       <groupId>com.android.tools</groupId>
       <artifactId>chimpchat</artifactId>
-      <version>24.3.0-beta3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>hierarchyviewer2lib</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>

@@ -31,12 +31,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>sdklib</artifactId>
-      <version>24.3.0-beta3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.android.external.eclipse</groupId>
       <artifactId>swt</artifactId>
       <version>3.5.0</version>
@@ -45,6 +39,18 @@
     <dependency>
       <groupId>com.android.tools</groupId>
       <artifactId>common</artifactId>
+      <version>24.3.0-beta3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools</groupId>
+      <artifactId>sdkuilib</artifactId>
+      <version>24.3.0-beta3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools</groupId>
+      <artifactId>sdklib</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
@@ -59,12 +65,6 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>sdkuilib</artifactId>
-      <version>24.3.0-beta3</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>

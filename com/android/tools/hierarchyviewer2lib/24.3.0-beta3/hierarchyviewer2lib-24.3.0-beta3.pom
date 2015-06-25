@@ -25,6 +25,12 @@
   </scm>
   <dependencies>
     <dependency>
+      <groupId>com.android.tools.ddms</groupId>
+      <artifactId>ddmuilib</artifactId>
+      <version>24.3.0-beta3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.android.external.eclipse</groupId>
       <artifactId>org-eclipse-jface</artifactId>
       <version>3.6.2</version>
@@ -32,7 +38,7 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools.ddms</groupId>
-      <artifactId>ddmuilib</artifactId>
+      <artifactId>ddmlib</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
@@ -46,12 +52,6 @@
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>15.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools.ddms</groupId>
-      <artifactId>ddmlib</artifactId>
-      <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

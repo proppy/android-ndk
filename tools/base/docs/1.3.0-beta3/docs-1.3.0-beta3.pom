@@ -43,15 +43,15 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.groovy</groupId>
-      <artifactId>groovy-all</artifactId>
-      <version>2.3.6</version>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>gradle</artifactId>
+      <version>1.3.0-beta3</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.build</groupId>
-      <artifactId>gradle-core</artifactId>
-      <version>1.3.0-beta3</version>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>2.3.6</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -68,7 +68,7 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools.build</groupId>
-      <artifactId>gradle</artifactId>
+      <artifactId>gradle-core</artifactId>
       <version>1.3.0-beta3</version>
       <scope>test</scope>
     </dependency>

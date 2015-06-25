@@ -32,6 +32,12 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools</groupId>
+      <artifactId>annotations</artifactId>
+      <version>24.3.0-beta3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools</groupId>
       <artifactId>common</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
@@ -41,12 +47,6 @@
       <artifactId>mockito-all</artifactId>
       <version>1.9.5</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>annotations</artifactId>
-      <version>24.3.0-beta3</version>
-      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>

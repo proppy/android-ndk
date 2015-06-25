@@ -32,7 +32,13 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools</groupId>
-      <artifactId>sdklib</artifactId>
+      <artifactId>hierarchyviewer2lib</artifactId>
+      <version>24.3.0-beta3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.ddms</groupId>
+      <artifactId>ddmlib</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
@@ -43,8 +49,8 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.ddms</groupId>
-      <artifactId>ddmlib</artifactId>
+      <groupId>com.android.tools</groupId>
+      <artifactId>sdklib</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
@@ -53,12 +59,6 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>hierarchyviewer2lib</artifactId>
-      <version>24.3.0-beta3</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>

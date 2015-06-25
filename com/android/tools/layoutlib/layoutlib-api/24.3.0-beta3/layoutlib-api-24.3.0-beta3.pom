@@ -34,13 +34,13 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools</groupId>
-      <artifactId>common</artifactId>
+      <artifactId>annotations</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.android.tools</groupId>
-      <artifactId>annotations</artifactId>
+      <artifactId>common</artifactId>
       <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>

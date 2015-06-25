@@ -25,15 +25,15 @@
   </scm>
   <dependencies>
     <dependency>
+      <groupId>com.android.tools</groupId>
+      <artifactId>testutils</artifactId>
+      <version>24.3.0-beta3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>com.android.external.eclipse</groupId>
       <artifactId>org-eclipse-jface</artifactId>
       <version>3.6.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>sdklib</artifactId>
-      <version>24.3.0-beta3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -50,9 +50,9 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools</groupId>
-      <artifactId>testutils</artifactId>
+      <artifactId>sdklib</artifactId>
       <version>24.3.0-beta3</version>
-      <scope>test</scope>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.android.tools</groupId>
