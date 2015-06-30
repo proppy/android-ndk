@@ -25,15 +25,15 @@
   </scm>
   <dependencies>
     <dependency>
-      <groupId>com.android.tools.build</groupId>
-      <artifactId>builder</artifactId>
-      <version>1.3.0-beta3</version>
+      <groupId>com.android.tools</groupId>
+      <artifactId>sdk-common</artifactId>
+      <version>24.3.0-beta4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.android.tools.build</groupId>
       <artifactId>builder-model</artifactId>
-      <version>1.3.0-beta3</version>
+      <version>1.3.0-beta4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -43,15 +43,15 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>sdk-common</artifactId>
-      <version>24.3.0-beta3</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>org.jacoco</groupId>
       <artifactId>org.jacoco.agent</artifactId>
       <version>0.7.4.201502262128</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>builder</artifactId>
+      <version>1.3.0-beta4</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

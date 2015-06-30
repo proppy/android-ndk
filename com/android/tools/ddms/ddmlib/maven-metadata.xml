@@ -2,11 +2,11 @@
 <metadata>
   <groupId>com.android.tools.ddms</groupId>
   <artifactId>ddmlib</artifactId>
-  <version>24.3.0-beta3</version>
+  <version>24.3.0-beta4</version>
   <versioning>
     <versions>
-      <version>24.3.0-beta3</version>
+      <version>24.3.0-beta4</version>
     </versions>
-    <lastUpdated>20150618020655</lastUpdated>
+    <lastUpdated>20150630190146</lastUpdated>
   </versioning>
 </metadata>

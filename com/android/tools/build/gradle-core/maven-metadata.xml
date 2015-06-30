@@ -2,11 +2,11 @@
 <metadata>
   <groupId>com.android.tools.build</groupId>
   <artifactId>gradle-core</artifactId>
-  <version>1.3.0-beta3</version>
+  <version>1.3.0-beta4</version>
   <versioning>
     <versions>
-      <version>1.3.0-beta3</version>
+      <version>1.3.0-beta4</version>
     </versions>
-    <lastUpdated>20150618020656</lastUpdated>
+    <lastUpdated>20150630190201</lastUpdated>
   </versioning>
 </metadata>
