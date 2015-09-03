@@ -10,7 +10,7 @@ addons:
   apt_packages:
     - pandoc
 before_install:
-  - git clone https://github.com/urho3d/android-ndk.git $HOME/android-ndk-root
+  - #git clone https://github.com/urho3d/android-ndk.git $HOME/android-ndk-root
   - export ANDROID_NDK_HOME=$HOME/android-ndk-root
 script:
   - for f in */README.md; do sed -n '/Support/,/License/p' $f > /tmp/$(dirname $f).readme; done && diff -u --from-file=/tmp/hello-jni.readme /tmp/*.readme
@@ -21,6 +21,6 @@ script:
     (! grep -n $'\t' */app/src/main/AndroidManifest.xml) | cat -t; test ${PIPESTATUS[0]} -eq 0
   - |-
     (! grep -E '\s+$' */app/src/main/AndroidManifest.xml) | cat -e; test ${PIPESTATUS[0]} -eq 0  
-  - (cd builder && ./gradlew test)
-  - pandoc builder/build/reports/tests/index.html -t plain | sed -n '/^Failed tests/,/default-package/p'
-  - for f in */app/build/outputs/lint-results.html; do pandoc $f -t plain; done
+  - #(cd builder && ./gradlew test)
+  - #pandoc builder/build/reports/tests/index.html -t plain | sed -n '/^Failed tests/,/default-package/p'
+  - #for f in */app/build/outputs/lint-results.html; do pandoc $f -t plain; done
