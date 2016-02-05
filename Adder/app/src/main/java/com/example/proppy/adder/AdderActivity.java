@@ -75,9 +75,12 @@ public class AdderActivity extends ListActivity {
         answerEdit.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                answers.addFirst(new Answer(binding.getAddition(), answerEdit.getText().toString()));
+                Answer answer = new Answer(binding.getAddition(), answerEdit.getText().toString());
+                answers.addFirst(answer);
                 adapter.notifyDataSetChanged();
-                binding.setAddition(new RandomAddition(10));
+                if (answer.ok) {
+                    binding.setAddition(new RandomAddition(10));
+                }
                 answerEdit.setText("");
                 return true;
             }
